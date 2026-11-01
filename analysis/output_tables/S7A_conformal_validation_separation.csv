@@ -1,0 +1,37 @@
+setting,label,n_valid,n_test,method,estimator,qhat,qhat_source,test_calibrator,coverage,pos_coverage,neg_coverage,avg_set_size,both_rate,empty_rate,no_call_pct,low_n,npv,fn,high_n
+dili_scaffold,DILI scaffold,122,124,temperature,shared,0.7515,full validation,full validation (paired),0.9113,0.9583,0.8462,1.6371,0.6371,0.0,73.3871,14.0,0.7857,3.0,19.0
+dili_scaffold,DILI scaffold,122,124,temperature,cross,0.7475,out-of-fold inside validation,full validation (cross-conformal),0.9113,0.9583,0.8462,1.6371,0.6371,0.0,73.3871,14.0,0.7857,3.0,19.0
+dili_scaffold,DILI scaffold,122,124,temperature,split60_median,0.7515,40% holdout of validation,"60% fit, per repeat (paired)",0.9194,0.9583,0.8654,1.6532,0.6532,0.0,72.5806,14.0,0.7857,3.0,18.0
+dili_external,DILI external,122,388,temperature,shared,0.7515,full validation,full validation (paired),0.8634,0.9231,0.6961,1.5026,0.5026,0.0,64.1753,39.0,0.4359,22.0,100.0
+dili_external,DILI external,122,388,temperature,cross,0.7457,out-of-fold inside validation,full validation (cross-conformal),0.8557,0.9161,0.6863,1.4897,0.4897,0.0,63.6598,41.0,0.4146,24.0,100.0
+dili_external,DILI external,122,388,temperature,split60_median,0.7671,40% holdout of validation,"60% fit, per repeat (paired)",0.8673,0.9248,0.7059,1.509,0.509,0.0,63.9175,38.5,0.4307,21.5,106.0
+dili_temporal,DILI temporal,134,146,platt,shared,0.7277,full validation,full validation (paired),0.7534,1.0,0.6471,1.5685,0.5685,0.0,89.726,2.0,1.0,0.0,13.0
+dili_temporal,DILI temporal,134,146,platt,cross,0.745,out-of-fold inside validation,full validation (cross-conformal),0.8014,1.0,0.7157,1.6233,0.6233,0.0,89.726,2.0,1.0,0.0,13.0
+dili_temporal,DILI temporal,134,146,platt,split60_median,0.7491,40% holdout of validation,"60% fit, per repeat (paired)",0.8082,1.0,0.7255,1.637,0.637,0.0,86.9863,2.0,1.0,0.0,18.5
+dili_cluster,DILI cluster-out,122,124,temperature,shared,0.6782,full validation,full validation (paired),0.9355,0.974,0.8723,1.6048,0.6048,0.0,94.3548,2.0,0.5,1.0,5.0
+dili_cluster,DILI cluster-out,122,124,temperature,cross,0.691,out-of-fold inside validation,full validation (cross-conformal),0.9435,0.974,0.8936,1.629,0.629,0.0,94.3548,2.0,0.5,1.0,5.0
+dili_cluster,DILI cluster-out,122,124,temperature,split60_median,0.6764,40% holdout of validation,"60% fit, per repeat (paired)",0.9355,0.974,0.8723,1.6048,0.6048,0.0,93.9516,2.0,0.8,1.0,5.5
+tox_nrar_scaffold,Tox21 NR-AR scaffold,1114,1116,platt,shared,0.055,full validation,full validation (paired),0.9122,0.0323,0.9373,0.9292,0.0,0.0708,88.2616,122.0,0.9836,2.0,0.0
+tox_nrar_scaffold,Tox21 NR-AR scaffold,1114,1116,platt,cross,0.0549,out-of-fold inside validation,full validation (cross-conformal),0.9113,0.0323,0.9364,0.9283,0.0,0.0717,88.2616,122.0,0.9836,2.0,0.0
+tox_nrar_scaffold,Tox21 NR-AR scaffold,1114,1116,platt,split60_median,0.0544,40% holdout of validation,"60% fit, per repeat (paired)",0.9117,0.0,0.9373,0.9288,0.0,0.0712,90.1434,101.0,0.984,2.0,0.0
+tox_nrar_cluster,Tox21 NR-AR cluster-out,1114,1116,platt,shared,0.0633,full validation,full validation (paired),0.914,0.0,0.9436,0.9373,0.0,0.0627,82.9749,172.0,0.9709,5.0,0.0
+tox_nrar_cluster,Tox21 NR-AR cluster-out,1114,1116,platt,cross,0.0627,out-of-fold inside validation,full validation (cross-conformal),0.9131,0.0,0.9426,0.9364,0.0,0.0636,82.9749,172.0,0.9709,5.0,0.0
+tox_nrar_cluster,Tox21 NR-AR cluster-out,1114,1116,platt,split60_median,0.0638,40% holdout of validation,"60% fit, per repeat (paired)",0.9149,0.0,0.9445,0.9382,0.0,0.0618,83.871,162.0,0.9728,5.0,0.0
+tox_nrer_scaffold,Tox21 NR-ER scaffold,946,947,platt,shared,0.5447,full validation,full validation (paired),0.9187,0.1176,0.9977,1.0021,0.0021,0.0,94.8258,40.0,0.95,2.0,2.0
+tox_nrer_scaffold,Tox21 NR-ER scaffold,946,947,platt,cross,0.5993,out-of-fold inside validation,full validation (cross-conformal),0.9261,0.1765,1.0,1.0095,0.0095,0.0,94.8258,40.0,0.95,2.0,2.0
+tox_nrer_scaffold,Tox21 NR-ER scaffold,946,947,platt,split60_median,0.5439,40% holdout of validation,"60% fit, per repeat (paired)",0.9187,0.0941,0.9977,1.0021,0.0021,0.0,94.8258,40.0,0.9481,2.0,2.0
+tox_nrer_cluster,Tox21 NR-ER cluster-out,946,947,platt,shared,0.7189,full validation,full validation (paired),0.9071,0.0435,1.0,1.0042,0.0042,0.0,94.509,32.0,0.9062,3.0,0.0
+tox_nrer_cluster,Tox21 NR-ER cluster-out,946,947,platt,cross,0.7284,out-of-fold inside validation,full validation (cross-conformal),0.9071,0.0435,1.0,1.0042,0.0042,0.0,94.509,32.0,0.9062,3.0,0.0
+tox_nrer_cluster,Tox21 NR-ER cluster-out,946,947,platt,split60_median,0.7197,40% holdout of validation,"60% fit, per repeat (paired)",0.9071,0.0435,1.0,1.0042,0.0042,0.0,95.2482,25.0,0.9286,3.0,0.0
+nasa_kc1,NASA KC1,317,317,platt,shared,0.69,full validation,full validation (paired),0.8959,0.3878,0.9888,1.1577,0.1577,0.0,70.6625,89.0,0.9663,3.0,4.0
+nasa_kc1,NASA KC1,317,317,platt,cross,0.6801,out-of-fold inside validation,full validation (cross-conformal),0.8959,0.3878,0.9888,1.142,0.142,0.0,70.6625,89.0,0.9663,3.0,4.0
+nasa_kc1,NASA KC1,317,317,platt,split60_median,0.7175,40% holdout of validation,"60% fit, per repeat (paired)",0.9038,0.4286,0.9925,1.1719,0.1719,0.0,70.347,89.0,0.9668,3.0,5.0
+nasa_pc1,NASA PC1,317,1109,platt,shared,0.69,full validation,full validation (paired),0.8774,0.5714,0.9002,1.3724,0.3724,0.0,85.9333,101.0,0.9901,1.0,55.0
+nasa_pc1,NASA PC1,317,1109,platt,cross,0.6876,out-of-fold inside validation,full validation (cross-conformal),0.8729,0.5455,0.8973,1.3634,0.3634,0.0,85.9333,101.0,0.9901,1.0,55.0
+nasa_pc1,NASA PC1,317,1109,platt,split60_median,0.6929,40% holdout of validation,"60% fit, per repeat (paired)",0.8819,0.5714,0.907,1.3562,0.3562,0.0,86.7448,101.0,0.9901,1.0,45.0
+nasa_jm1,NASA JM1,317,10885,platt,shared,0.69,full validation,full validation (paired),0.8339,0.4967,0.9148,1.2771,0.2771,0.0,81.2862,1472.0,0.8913,160.0,565.0
+nasa_jm1,NASA JM1,317,10885,platt,cross,0.6741,out-of-fold inside validation,full validation (cross-conformal),0.8241,0.4815,0.9063,1.2485,0.2485,0.0,81.2862,1472.0,0.8913,160.0,565.0
+nasa_jm1,NASA JM1,317,10885,platt,split60_median,0.6881,40% holdout of validation,"60% fit, per repeat (paired)",0.8349,0.4907,0.9207,1.2748,0.2748,0.0,82.0946,1451.0,0.8935,154.5,541.5
+nasa_kc2,NASA KC2,317,522,platt,shared,0.69,full validation,full validation (paired),0.8831,0.486,0.9855,1.2356,0.2356,0.0,92.1456,36.0,0.9722,1.0,5.0
+nasa_kc2,NASA KC2,317,522,platt,cross,0.6693,out-of-fold inside validation,full validation (cross-conformal),0.8736,0.4579,0.9807,1.205,0.205,0.0,92.1456,36.0,0.9722,1.0,5.0
+nasa_kc2,NASA KC2,317,522,platt,split60_median,0.6923,40% holdout of validation,"60% fit, per repeat (paired)",0.8851,0.486,0.9855,1.2395,0.2395,0.0,91.8582,37.0,0.9756,1.0,6.0

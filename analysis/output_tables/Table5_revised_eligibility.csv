@@ -1,0 +1,13 @@
+setting,domain,label,n,positives,prevalence,low_n,low_positive,low_negative,npv,npv_ci_low,npv_ci_high,negative_share,base_negative_rate,negative_enrichment,fn,fn_pct_pos,low_coverage_pct,breakeven_cost_ratio,odds_ratio_vs_cohort,high_n,high_precision,no_call_pct,eligibility,basis
+dili_scaffold,DILI,DILI scaffold,124,72,0.581,14,3,11,0.7857,0.5241,0.9243,0.7857,0.4194,1.8736,3,4.17,11.29,3.67,5.077,16,0.875,75.8,insufficient,low group n=14 < 30
+dili_external,DILI,DILI external,388,286,0.737,38,21,17,0.4474,0.3015,0.6029,0.4474,0.2629,1.7018,21,7.34,9.79,0.81,2.27,83,0.807,68.8,does not support,NPV 0.447 < 0.9; FN 7.3% > 5.0%
+dili_temporal,DILI,DILI temporal,146,44,0.301,2,0,2,1.0,0.3424,1.0,1.0,0.6986,1.4314,0,0.0,1.37,inf,inf,13,0.538,89.7,insufficient,low group n=2 < 30
+dili_cluster,DILI,DILI cluster-out,124,77,0.621,2,1,1,0.5,0.0945,0.9055,0.5,0.379,1.3191,1,1.3,1.61,1.0,1.638,10,0.9,90.3,insufficient,low group n=2 < 30
+tox_nrar_scaffold,Tox21,Tox21 NR-AR scaffold,1116,31,0.028,122,2,120,0.9836,0.9422,0.9955,0.9836,0.9722,1.0117,2,6.45,10.93,60.0,1.714,0,,88.3,does not support,enrichment 1.012 < 1.1; FN 6.5% > 5.0%
+tox_nrar_cluster,Tox21,Tox21 NR-AR cluster-out,1116,35,0.031,172,5,167,0.9709,0.9338,0.9875,0.9709,0.9686,1.0024,5,14.29,15.41,33.4,1.081,0,,83.0,does not support,enrichment 1.002 < 1.1; FN 14.3% > 5.0%
+tox_nrer_scaffold,Tox21,Tox21 NR-ER scaffold,947,85,0.09,40,2,38,0.95,0.835,0.9862,0.95,0.9102,1.0437,2,2.35,4.22,19.0,1.874,2,1.0,94.8,does not support,enrichment 1.044 < 1.1; coverage 4.2% < 5.0%
+tox_nrer_cluster,Tox21,Tox21 NR-ER cluster-out,947,92,0.097,32,3,29,0.9062,0.7578,0.9676,0.9062,0.9029,1.0038,3,3.26,3.38,9.67,1.04,0,,94.5,does not support,enrichment 1.004 < 1.1; coverage 3.4% < 5.0%
+nasa_kc1,NASA,NASA KC1,317,49,0.155,89,3,86,0.9663,0.9055,0.9885,0.9663,0.8454,1.143,3,6.12,28.08,28.67,5.241,4,1.0,70.7,does not support,FN 6.1% > 5.0%
+nasa_pc1,NASA,NASA PC1,1109,77,0.069,101,1,100,0.9901,0.946,0.9983,0.9901,0.9306,1.064,1,1.3,9.11,100.0,7.461,55,0.109,85.9,does not support,enrichment 1.064 < 1.1
+nasa_jm1,NASA,NASA JM1,10885,2106,0.193,1472,160,1312,0.8913,0.8744,0.9062,0.8913,0.8065,1.1051,160,7.6,13.52,8.2,1.967,565,0.308,81.3,does not support,NPV 0.891 < 0.9; FN 7.6% > 5.0%
+nasa_kc2,NASA,NASA KC2,522,107,0.205,36,1,35,0.9722,0.8583,0.9951,0.9722,0.795,1.2229,1,0.93,6.9,35.0,9.024,5,0.4,92.1,supports,meets all criteria

@@ -1,0 +1,13 @@
+setting,label,n_valid,n_test,method,qhat_published,qhat_split_median,qhat_split_p05,qhat_split_p95,coverage_split_median,coverage_split_p05,coverage_split_p95
+dili_scaffold,DILI scaffold,122,124,temperature,0.7328,0.7515,0.6082,0.8269,0.9194,0.8093,0.9677
+dili_external,DILI external,122,388,temperature,0.7328,0.7671,0.5978,0.8563,0.8673,0.7655,0.9098
+dili_temporal,DILI temporal,134,146,platt,0.7281,0.7491,0.6508,0.8373,0.8082,0.7192,0.9041
+dili_cluster,DILI cluster-out,122,124,temperature,0.694,0.6764,0.6201,0.7737,0.9355,0.9194,0.9677
+tox_nrar_scaffold,Tox21 NR-AR scaffold,1114,1116,platt,0.055,0.0544,0.0421,0.0674,0.9117,0.8705,0.9229
+tox_nrar_cluster,Tox21 NR-AR cluster-out,1114,1116,platt,0.0633,0.0638,0.0508,0.0819,0.9149,0.8964,0.9257
+tox_nrer_scaffold,Tox21 NR-ER scaffold,946,947,platt,0.546,0.5439,0.3391,0.7413,0.9187,0.9091,0.9335
+tox_nrer_cluster,Tox21 NR-ER cluster-out,946,947,platt,0.7208,0.7197,0.1971,0.8391,0.9071,0.8922,0.9152
+nasa_kc1,NASA KC1,317,317,platt,0.6902,0.7175,0.5709,0.8055,0.9038,0.8675,0.9211
+nasa_pc1,NASA PC1,317,1109,platt,0.6902,0.6929,0.5881,0.7977,0.8819,0.7295,0.9505
+nasa_jm1,NASA JM1,317,10885,platt,0.6902,0.6881,0.5502,0.7822,0.8349,0.7406,0.8851
+nasa_kc2,NASA KC2,317,522,platt,0.6902,0.6923,0.586,0.7799,0.8851,0.8293,0.9178

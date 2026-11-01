@@ -1,0 +1,13 @@
+setting,qhat,u80,u_band_lower,u_band_upper,conformal_lower,conformal_upper,u_band_inside_conformal
+dili_scaffold,0.7323,1.0828,0.4071,0.5929,0.2677,0.7323,True
+dili_external,0.7323,1.0828,0.4071,0.5929,0.2677,0.7323,True
+dili_temporal,0.7277,1.0888,0.4114,0.5886,0.2723,0.7277,True
+dili_cluster,0.6929,1.0773,0.4031,0.5969,0.3071,0.6929,True
+tox_nrar_scaffold,0.055,0.1746,0.0322,0.9678,0.055,0.945,False
+tox_nrar_cluster,0.0633,0.1922,0.0363,0.9637,0.0633,0.9367,False
+tox_nrer_scaffold,0.5447,0.5452,0.1401,0.8599,0.4553,0.5447,False
+tox_nrer_cluster,0.7189,0.4853,0.1195,0.8805,0.2811,0.7189,False
+nasa_kc1,0.69,0.7609,0.2262,0.7738,0.31,0.69,False
+nasa_pc1,0.69,0.7609,0.2262,0.7738,0.31,0.69,False
+nasa_jm1,0.69,0.7609,0.2262,0.7738,0.31,0.69,False
+nasa_kc2,0.69,0.7609,0.2262,0.7738,0.31,0.69,False

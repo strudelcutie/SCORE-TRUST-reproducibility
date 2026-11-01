@@ -1,0 +1,73 @@
+setting,protocol,high_n,high_precision,high_recall,low_n,npv,fn,fn_pct_pos,no_call_pct,decided_error_rate
+dili_scaffold,L0 thresholds only,16,0.875,0.1944,32,0.5938,13,18.06,61.29,0.3125
+dili_scaffold,L1 + conformal,16,0.875,0.1944,14,0.7857,3,4.17,75.81,0.1667
+dili_scaffold,L2 + conformal + U80,16,0.875,0.1944,14,0.7857,3,4.17,75.81,0.1667
+dili_scaffold,L3 full protocol,16,0.875,0.1944,14,0.7857,3,4.17,75.81,0.1667
+dili_scaffold,thresholds + OOD only,16,0.875,0.1944,32,0.5938,13,18.06,61.29,0.3125
+dili_scaffold,thresholds + conformal + OOD,16,0.875,0.1944,14,0.7857,3,4.17,75.81,0.1667
+dili_external,L0 thresholds only,83,0.8072,0.2343,92,0.3804,57,19.93,54.9,0.4171
+dili_external,L1 + conformal,83,0.8072,0.2343,38,0.4474,21,7.34,68.81,0.3058
+dili_external,L2 + conformal + U80,83,0.8072,0.2343,38,0.4474,21,7.34,68.81,0.3058
+dili_external,L3 full protocol,83,0.8072,0.2343,38,0.4474,21,7.34,68.81,0.3058
+dili_external,thresholds + OOD only,83,0.8072,0.2343,92,0.3804,57,19.93,54.9,0.4171
+dili_external,thresholds + conformal + OOD,83,0.8072,0.2343,38,0.4474,21,7.34,68.81,0.3058
+dili_temporal,L0 thresholds only,13,0.5385,0.1591,7,1.0,0,0.0,86.3,0.3
+dili_temporal,L1 + conformal,13,0.5385,0.1591,2,1.0,0,0.0,89.73,0.4
+dili_temporal,L2 + conformal + U80,13,0.5385,0.1591,2,1.0,0,0.0,89.73,0.4
+dili_temporal,L3 full protocol,13,0.5385,0.1591,2,1.0,0,0.0,89.73,0.4
+dili_temporal,thresholds + OOD only,13,0.5385,0.1591,7,1.0,0,0.0,86.3,0.3
+dili_temporal,thresholds + conformal + OOD,13,0.5385,0.1591,2,1.0,0,0.0,89.73,0.4
+dili_cluster,L0 thresholds only,10,0.9,0.1169,2,0.5,1,1.3,90.32,0.1667
+dili_cluster,L1 + conformal,10,0.9,0.1169,2,0.5,1,1.3,90.32,0.1667
+dili_cluster,L2 + conformal + U80,10,0.9,0.1169,2,0.5,1,1.3,90.32,0.1667
+dili_cluster,L3 full protocol,10,0.9,0.1169,2,0.5,1,1.3,90.32,0.1667
+dili_cluster,thresholds + OOD only,10,0.9,0.1169,2,0.5,1,1.3,90.32,0.1667
+dili_cluster,thresholds + conformal + OOD,10,0.9,0.1169,2,0.5,1,1.3,90.32,0.1667
+tox_nrar_scaffold,L0 thresholds only,60,0.1833,0.3548,125,0.984,2,6.45,83.42,0.2757
+tox_nrar_scaffold,L1 + conformal,1,1.0,0.0323,125,0.984,2,6.45,88.71,0.0159
+tox_nrar_scaffold,L2 + conformal + U80,0,,0.0,125,0.984,2,6.45,88.8,0.016
+tox_nrar_scaffold,L3 full protocol,0,,0.0,122,0.9836,2,6.45,88.26,0.0164
+tox_nrar_scaffold,thresholds + OOD only,59,0.1864,0.3548,122,0.9836,2,6.45,82.97,0.2762
+tox_nrar_scaffold,thresholds + conformal + OOD,1,1.0,0.0323,122,0.9836,2,6.45,88.17,0.0163
+tox_nrar_cluster,L0 thresholds only,53,0.1509,0.2286,187,0.9679,6,17.14,78.49,0.2125
+tox_nrar_cluster,L1 + conformal,0,,0.0,187,0.9679,6,17.14,83.24,0.0321
+tox_nrar_cluster,L2 + conformal + U80,0,,0.0,187,0.9679,6,17.14,83.24,0.0321
+tox_nrar_cluster,L3 full protocol,0,,0.0,172,0.9709,5,14.29,82.97,0.0291
+tox_nrar_cluster,thresholds + OOD only,53,0.1509,0.2286,172,0.9709,5,14.29,78.23,0.2222
+tox_nrar_cluster,thresholds + conformal + OOD,0,,0.0,172,0.9709,5,14.29,82.97,0.0291
+tox_nrer_scaffold,L0 thresholds only,49,0.4694,0.2706,42,0.9524,2,2.35,90.39,0.3077
+tox_nrer_scaffold,L1 + conformal,47,0.4468,0.2471,42,0.9524,2,2.35,90.6,0.3146
+tox_nrer_scaffold,L2 + conformal + U80,2,1.0,0.0235,42,0.9524,2,2.35,95.35,0.0455
+tox_nrer_scaffold,L3 full protocol,2,1.0,0.0235,40,0.95,2,2.35,94.83,0.0476
+tox_nrer_scaffold,thresholds + OOD only,49,0.4694,0.2706,40,0.95,2,2.35,89.86,0.3146
+tox_nrer_scaffold,thresholds + conformal + OOD,47,0.4468,0.2471,40,0.95,2,2.35,90.07,0.3218
+tox_nrer_cluster,L0 thresholds only,44,0.3182,0.1522,40,0.925,3,3.26,91.13,0.3929
+tox_nrer_cluster,L1 + conformal,40,0.25,0.1087,40,0.925,3,3.26,91.55,0.4125
+tox_nrer_cluster,L2 + conformal + U80,0,,0.0,40,0.925,3,3.26,95.78,0.075
+tox_nrer_cluster,L3 full protocol,0,,0.0,32,0.9062,3,3.26,94.51,0.0938
+tox_nrer_cluster,thresholds + OOD only,44,0.3182,0.1522,32,0.9062,3,3.26,89.86,0.4342
+tox_nrer_cluster,thresholds + conformal + OOD,40,0.25,0.1087,32,0.9062,3,3.26,90.29,0.4583
+nasa_kc1,L0 thresholds only,37,0.4054,0.3061,89,0.9663,3,6.12,60.25,0.1984
+nasa_kc1,L1 + conformal,9,0.6667,0.1224,89,0.9663,3,6.12,69.09,0.0612
+nasa_kc1,L2 + conformal + U80,4,1.0,0.0816,89,0.9663,3,6.12,70.66,0.0323
+nasa_kc1,L3 full protocol,4,1.0,0.0816,89,0.9663,3,6.12,70.66,0.0323
+nasa_kc1,thresholds + OOD only,37,0.4054,0.3061,89,0.9663,3,6.12,60.25,0.1984
+nasa_kc1,thresholds + conformal + OOD,9,0.6667,0.1224,89,0.9663,3,6.12,69.09,0.0612
+nasa_pc1,L0 thresholds only,370,0.1,0.4805,101,0.9901,1,1.3,57.53,0.7091
+nasa_pc1,L1 + conformal,112,0.0893,0.1299,101,0.9901,1,1.3,80.79,0.4836
+nasa_pc1,L2 + conformal + U80,55,0.1091,0.0779,101,0.9901,1,1.3,85.93,0.3205
+nasa_pc1,L3 full protocol,55,0.1091,0.0779,101,0.9901,1,1.3,85.93,0.3205
+nasa_pc1,thresholds + OOD only,370,0.1,0.4805,101,0.9901,1,1.3,57.53,0.7091
+nasa_pc1,thresholds + conformal + OOD,112,0.0893,0.1299,101,0.9901,1,1.3,80.79,0.4836
+nasa_jm1,L0 thresholds only,2940,0.2765,0.386,1472,0.8913,160,7.6,59.47,0.5184
+nasa_jm1,L1 + conformal,1068,0.3015,0.1529,1472,0.8913,160,7.6,76.67,0.3567
+nasa_jm1,L2 + conformal + U80,565,0.308,0.0826,1472,0.8913,160,7.6,81.29,0.2705
+nasa_jm1,L3 full protocol,565,0.308,0.0826,1472,0.8913,160,7.6,81.29,0.2705
+nasa_jm1,thresholds + OOD only,2940,0.2765,0.386,1472,0.8913,160,7.6,59.47,0.5184
+nasa_jm1,thresholds + conformal + OOD,1068,0.3015,0.1529,1472,0.8913,160,7.6,76.67,0.3567
+nasa_kc2,L0 thresholds only,73,0.4247,0.2897,36,0.9722,1,0.93,79.12,0.3945
+nasa_kc2,L1 + conformal,13,0.5385,0.0654,36,0.9722,1,0.93,90.61,0.1429
+nasa_kc2,L2 + conformal + U80,5,0.4,0.0187,36,0.9722,1,0.93,92.15,0.0976
+nasa_kc2,L3 full protocol,5,0.4,0.0187,36,0.9722,1,0.93,92.15,0.0976
+nasa_kc2,thresholds + OOD only,73,0.4247,0.2897,36,0.9722,1,0.93,79.12,0.3945
+nasa_kc2,thresholds + conformal + OOD,13,0.5385,0.0654,36,0.9722,1,0.93,90.61,0.1429
