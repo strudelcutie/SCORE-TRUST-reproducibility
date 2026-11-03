@@ -1,7 +1,7 @@
-# DILI-TRUST reproducibility package
+# SCORE-TRUST reproducibility package
 
 Code, curated input data, and final result tables for the manuscript
-"Evaluating ranking, probability calibration, and exclusion decisions across predictive screening benchmarks".
+"SCORE-TRUST: ranking, calibration, and exclusion require separate audits in predictive screening".
 
 The study asks whether a single screening score can support three different
 decisions — ranking candidates, estimating risk, and excluding low-score cases — and evaluates this question in drug-induced liver injury (DILI) data, two Tox21 assays, and four NASA software-defect projects.
