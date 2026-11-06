@@ -1,0 +1,13 @@
+setting,high_n,expected_high_n,low_n,expected_low_n,low_positive,expected_low_positive,pass
+DILI scaffold,16,16,14,14,3,3,True
+DILI external,83,92,38,39,21,22,False
+DILI temporal,13,13,2,2,0,0,True
+DILI cluster-out,10,10,2,8,1,2,False
+Tox21 NR-AR scaffold,0,0,122,206,2,5,False
+Tox21 NR-AR cluster-out,0,0,172,222,5,7,False
+Tox21 NR-ER scaffold,2,2,40,70,2,3,False
+Tox21 NR-ER cluster-out,0,0,32,43,3,3,False
+NASA KC1,4,4,89,89,3,3,True
+NASA PC1,55,55,101,115,1,2,False
+NASA JM1,565,565,1472,1565,160,175,False
+NASA KC2,5,5,36,40,1,1,False
